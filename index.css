@@ -1,0 +1,77 @@
+@import"https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap";
+html,body{
+    margin:0;
+}
+
+* {
+    text-align:center;
+}
+
+
+main{
+    font:  2rem Inter,sans-serif;
+    color:black;
+    background-color:#F4F4F4;
+}
+
+body {
+    height: 100%;
+}
+div.input{
+    background-color: #6943FF;
+    padding: .5em;
+    display:flex;
+    flex-direction: column;
+    gap:.5em;
+    align-items: center;
+}
+
+input{
+    border-radius:.5rem;
+    border:2px solid white;
+    background: inherit;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: .075em;
+    width: 2em;
+    color: white;
+}
+
+button{
+    border-radius: .25rem;
+    border: none;
+    font-size: large;
+    padding: .8em;
+    width: 8em;
+}
+
+h3{
+    color:white;
+     font-weight:800;
+}
+div.conversions{
+    display:flex;
+    flex-direction: column;
+    gap: .5em;
+    padding: 1em;
+}
+
+section{
+    background-color:white;
+}
+
+section > h5{
+    color:#5A537B;
+    margin: .25em;
+    font-weight:600;
+}
+
+section > div{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap:.5em;
+    padding:.5em;
+    font-size:1.5rem;
+}
+
